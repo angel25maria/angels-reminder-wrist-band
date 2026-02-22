@@ -2,7 +2,7 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+#smart medicine reminder system 🎯
 
 ## Basic Details
 
@@ -55,62 +55,35 @@ Feature 4: Hardware Alert Mechanism – Uses ESP32 with buzzer and vibration mot
 
 ## Implementation
 
-### For Software:
-
-#### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
-
-#### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
-```
-
 ### For Hardware:
 
 #### Components Required
-[List all components needed with specifications]
+ESP32 Development Board
+Buzzer
+Vibration Motor (DC Motor)
+Breadboard
+Jumper Wires
+USB Cable (for programming & power supply)
+
 
 #### Circuit Setup
-[Explain how to set up the circuit]
+1.Place the ESP32 on the breadboard.
+2.Connect the buzzer positive pin to a digital GPIO pin of ESP32 (e.g., GPIO 23) and the negative pin to GND.
+3.Connect the vibration motor positive terminal to another GPIO pin (e.g., GPIO 22) and the negative terminal to GND.
+4.Ensure all GND connections are common.
+5.Power the ESP32 using a USB cable connected to a laptop or 5V supply.
+6.Upload the program using Arduino IDE and test the buzzer and vibration alert when the reminder time is triggered.
 
 ---
 
 ## Project Documentation
 
-### For Software:
-
-#### Screenshots (Add at least 3)
-
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-#### Diagrams
-
-**System Architecture:**
-
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
-
-**Application Workflow:**
-
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
-
----
 
 ### For Hardware:
 
 #### Schematic & Circuit
 
-![Circuit](Add your circuit diagram here)
+
 *Add caption explaining connections*
 
 ![Schematic](Add your schematic diagram here)
