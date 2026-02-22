@@ -6,23 +6,23 @@
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: Angels
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Angel Maria Saju - TocH Institute of science and technology
+- Member 2: Angelin P Baby - TocH Institute of science and technology
 
 ### Hosted Project Link
-[mention your project hosted link here]
+http://127.0.0.1:5500/index.html
 
 ### Project Description
-[2-3 lines about what your project does]
+The Medicine Reminder system is a web-based application that helps users schedule and manage their medication timings efficiently. It allows users to select dates from an interactive calendar, set reminder times, and receive notifications at the exact allotted time. The system ensures users never miss their medicines through timely alerts and a user-friendly interface.
 
 ### The Problem statement
-[What problem are you solving?]
+Many people forget to take their medicines on time, leading to health complications and poor treatment outcomes. There is a need for a simple and reliable system that provides timely reminders to ensure proper medication adherence.
 
 ### The Solution
-[How are you solving it?]
+Develop a user-friendly web-based medicine reminder system that allows users to select dates and set specific times for medication, providing timely notifications to ensure medicines are taken as prescribed.
 
 ---
 
@@ -31,25 +31,25 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: JavaScript, CSS, HTML 
+- Frameworks used:None
+- Libraries used:FullCalendar, Flatpickr
+- Tools used: VS Code, Arduino IDE, Git
 
 **For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Main components: ESP32 development board, Buzzer, Vibrator Motor, Breadboard, Jumper Wires
+- Specifications:ESP32 operating voltage: 3.3V, Input voltage (via USB): 5V, Buzzer: 3.3V / 5V compatible,Vibration Motor: 3V–5V DC,Wi-Fi & Bluetooth enabled (ESP32 built-in)
+- Tools required: Arduino IDE (for programming ESP32), USB cable, Laptop/PC, Breadboard, Jumper wires
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+Feature 1: Interactive Calendar Scheduling – Users can select specific dates using an integrated calendar to schedule medicine reminders.
+Feature 2: Time-Based Reminder System – Allows users to set exact medication times with automatic alerts at the allotted time.
+Feature 3: Repeat Everyday Option – Enables recurring daily reminders for continuous medication schedules.
+Feature 4: Hardware Alert Mechanism – Uses ESP32 with buzzer and vibration motor to provide both sound and vibration notifications for better reliability. 
 
 ---
 
