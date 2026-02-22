@@ -86,7 +86,7 @@ USB Cable (for programming & power supply)
 
 *Add caption explaining connections*
 
-![Schematic](Add your schematic diagram here)
+![Schematic](https://github.com/angel25maria/angels-reminder-wrist-band/blob/main/circuit%20diagram.png)
 *Add caption explaining the schematic*
 
 #### Build Photos
