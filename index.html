@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medicine Reminder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>💊 Medicine Reminder</h2>
+
+    <div class="input-group">
+        <label>Select Date</label>
+        <input type="date" id="date">
+    </div>
+
+    <div class="input-group">
+        <label>Select Time *</label>
+        <input type="time" id="time">
+    </div>
+
+    <div class="input-group">
+        <label>Medicine Name *</label>
+        <input type="text" id="medicine" placeholder="Enter medicine name">
+    </div>
+
+    <div class="checkbox-group">
+        <input type="checkbox" id="everyday">
+        <label for="everyday">Repeat Everyday</label>
+    </div>
+
+    <button onclick="addReminder()">Set Reminder</button>
+
+    <h3>Upcoming Reminders</h3>
+    <ul id="reminderList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
